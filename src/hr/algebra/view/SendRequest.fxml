@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.controllers.SendRequestController">
+    <children>
+        <AnchorPane prefHeight="444.0" prefWidth="484.0">
+            <children>
+                <Label layoutX="59.0" layoutY="43.0" text="Maker" />
+                <Label layoutX="59.0" layoutY="137.0" text="Model" />
+                <Label layoutX="59.0" layoutY="233.0" text="Production Year" />
+                <Label layoutX="59.0" layoutY="312.0" text="Acceptable km" />
+                <TextField fx:id="tfMaker" layoutX="218.0" layoutY="37.0" onKeyReleased="#handleSendButton" />
+                <TextField fx:id="tfKm" layoutX="218.0" layoutY="300.0" onKeyReleased="#handleSendButton" />
+                <TextField fx:id="tfProductionYear" layoutX="218.0" layoutY="227.0" onKeyReleased="#handleSendButton" />
+                <TextField fx:id="tfModel" layoutX="218.0" layoutY="131.0" onKeyReleased="#handleSendButton" />
+            <Button fx:id="btnSend" disable="true" layoutX="257.0" layoutY="372.0" mnemonicParsing="false" onAction="#Send" text="Send to admin" />
+            </children>
+        </AnchorPane>
+    </children>
+</HBox>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hr.algebra.controllers.UserTakenAdsController">
+   <children>
+      <BorderPane prefHeight="600.0" prefWidth="809.0">
+         <bottom>
+            <TableView fx:id="tvAds" editable="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#reserveAd" prefHeight="550.0" prefWidth="1000.0" BorderPane.alignment="CENTER">
+               <columns>
+                  <TableColumn fx:id="tcTitle" prefWidth="75.0" text="Title" />
+                  <TableColumn fx:id="tcPrice" prefWidth="201.0" text="Price" />
+                  <TableColumn fx:id="tcDateAndTime" prefWidth="75.0" text="Publishing Date" />
+               </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+         </bottom>
+
+         <top>
+            <MenuBar BorderPane.alignment="CENTER">
+               <menus>
+                  <Menu mnemonicParsing="false" text="Reflection">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#createDocumentation" text="Create Documentation" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="Serialization">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#deserialize" text="Load" />
+                        <MenuItem mnemonicParsing="false" onAction="#serialize" text="Save" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="XML DOM">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#loadDOM" text="Load data" />
+                        <MenuItem mnemonicParsing="false" onAction="#saveDOM" text="Save data" />
+                     </items>
+                  </Menu>
+                  <Menu mnemonicParsing="false" text="SAX">
+                     <items>
+                        <MenuItem mnemonicParsing="false" onAction="#loadSAX" text="Load data" />
+                     </items>
+                  </Menu>
+               </menus>
+            </MenuBar>
+         </top>
+
+
+      </BorderPane>
+   </children>
+</HBox>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<vehicles>
+    <vehicle>
+        <IDVehicle>1</IDVehicle>
+        <VehicleTypeID>2</VehicleTypeID>
+        <Maker>Audi</Maker>
+        <Model>A3 1.6 TDI</Model>
+        <ProductionYear>2013</ProductionYear>
+        <InitialKm>120000</InitialKm>
+        <Available>0</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>2</IDVehicle>
+        <VehicleTypeID>1</VehicleTypeID>
+        <Maker>Bmw</Maker>
+        <Model>320D</Model>
+        <ProductionYear>2013</ProductionYear>
+        <InitialKm>80000</InitialKm>
+        <Available>0</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>3</IDVehicle>
+        <VehicleTypeID>5</VehicleTypeID>
+        <Maker>Mercedes</Maker>
+        <Model>C220D</Model>
+        <ProductionYear>2015</ProductionYear>
+        <InitialKm>90000</InitialKm>
+        <Available>0</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>4</IDVehicle>
+        <VehicleTypeID>3</VehicleTypeID>
+        <Maker>Renault</Maker>
+        <Model>1.5 DCI</Model>
+        <ProductionYear>2019</ProductionYear>
+        <InitialKm>8000</InitialKm>
+        <Available>1</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>5</IDVehicle>
+        <VehicleTypeID>4</VehicleTypeID>
+        <Maker>VW</Maker>
+        <Model>Passat 2.0 TDI</Model>
+        <ProductionYear>2008</ProductionYear>
+        <InitialKm>180000</InitialKm>
+        <Available>1</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>6</IDVehicle>
+        <VehicleTypeID>3</VehicleTypeID>
+        <Maker>VW</Maker>
+        <Model>Golf 6 1.6 TDI</Model>
+        <ProductionYear>2011</ProductionYear>
+        <InitialKm>20000</InitialKm>
+        <Available>1</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>7</IDVehicle>
+        <VehicleTypeID>2</VehicleTypeID>
+        <Maker>VW</Maker>
+        <Model>golf 7 1.6 TDI</Model>
+        <ProductionYear>2014</ProductionYear>
+        <InitialKm>10000</InitialKm>
+        <Available>1</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>8</IDVehicle>
+        <VehicleTypeID>2</VehicleTypeID>
+        <Maker>Bmw</Maker>
+        <Model>116D</Model>
+        <ProductionYear>2012</ProductionYear>
+        <InitialKm>50000</InitialKm>
+        <Available>1</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>9</IDVehicle>
+        <VehicleTypeID>1</VehicleTypeID>
+        <Maker>Bmw</Maker>
+        <Model>525D</Model>
+        <ProductionYear>2013</ProductionYear>
+        <InitialKm>30000</InitialKm>
+        <Available>1</Available>
+    </vehicle>
+    <vehicle>
+        <IDVehicle>10</IDVehicle>
+        <VehicleTypeID>5</VehicleTypeID>
+        <Maker>Mercedes</Maker>
+        <Model>C220D</Model>
+        <ProductionYear>2016</ProductionYear>
+        <InitialKm>40000</InitialKm>
+        <Available>1</Available>
+    </vehicle>
+</vehicles>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<title>Class documentation</title>
+<style>
+p{
+margin-bottom:-5px;
+
+}
+h3{
+margin-top:10px;
+
+}
+.border{
+border: 5px solid rgba(255, 255, 255, 0.3);
+
+}
+.jumbotron{
+margin-top:10px;
+
+}
+</style>
+</head>
+<body><div class="jumbotron text-center" style="margin-bottom:10px; margin-top:-10px">
+  <h1>Code Documentation</h1>
+</div><div class="container text-left border"><div class="jumbotron text-center"><h1>AddVehicleController
+</h1></div><p>package hr.algebra.controllers</p>public AddVehicleController
+extends java.lang.Object
+implements javafx.fxml.Initializable<h3>Fields</h3>
+
+<p>hr.algebra.repository.ISqlRepo hr.algebra.controllers.AddVehicleController.repo</p><p>private javafx.scene.control.TextField hr.algebra.controllers.AddVehicleController.tfMaker</p><p>private javafx.scene.control.TextField hr.algebra.controllers.AddVehicleController.tfModel</p><p>private javafx.scene.control.TextField hr.algebra.controllers.AddVehicleController.tfKm</p><p>private javafx.scene.control.ComboBox hr.algebra.controllers.AddVehicleController.cbType</p><p>private javafx.scene.control.Button hr.algebra.controllers.AddVehicleController.btnAddCar</p><p>private javafx.scene.control.DatePicker hr.algebra.controllers.AddVehicleController.dpYear</p><h3>Methods</h3><p>private interface javafx.collections.ObservableList getType()<p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)<p>private void lambda$addCar$0()<p>@javafx.fxml.FXML()
+private void addCar()<p>private void clearForm()<p>private void initTableCells()</p><h3>Constructors</h3><p>
+public hr.algebra.controllers.AddVehicleController()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>AdminAddAdsController
+</h1></div><p>package hr.algebra.controllers</p>public AdminAddAdsController
+extends java.lang.Object
+implements javafx.fxml.Initializable<h3>Fields</h3>
+
+<p>hr.algebra.repository.ISqlRepo hr.algebra.controllers.AdminAddAdsController.repo</p><p>private javafx.scene.control.TableView hr.algebra.controllers.AdminAddAdsController.tvAds</p><p>private javafx.scene.control.TextField hr.algebra.controllers.AdminAddAdsController.tfTitle</p><p>private javafx.scene.control.TextField hr.algebra.controllers.AdminAddAdsController.tfPrice</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.AdminAddAdsController.tcTitle</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.AdminAddAdsController.tcPrice</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.AdminAddAdsController.tcDateAndTime</p><p>private javafx.scene.control.ComboBox hr.algebra.controllers.AdminAddAdsController.cbVehicles</p><p>private javafx.scene.control.Button hr.algebra.controllers.AdminAddAdsController.btnAddAd</p><p>private javafx.scene.control.Button hr.algebra.controllers.AdminAddAdsController.btnAddSubject</p><h3>Methods</h3><p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)<p>private void lambda$initialize$1()<p>@javafx.fxml.FXML()
+private void createDocumentation()<p>@javafx.fxml.FXML()
+private void handleAddCarButton()<p>private static interface javafx.beans.value.ObservableValue lambda$initTableCells$2(javafx.scene.control.TableColumn$CellDataFeatures arg0)<p>private void lambda$deleteAd$4()<p>private void lambda$null$0()<p>@javafx.fxml.FXML()
+private void addVehicle() throws class java.lang.Exception<p>@javafx.fxml.FXML()
+private void deleteAd(javafx.scene.input.MouseEvent arg0) throws class java.lang.Exception<p>@javafx.fxml.FXML()
+private void saveDOM() throws class javax.xml.parsers.ParserConfigurationException<p>private void lambda$addAd$3()<p>@javafx.fxml.FXML()
+private void loadSAX()<p>@javafx.fxml.FXML()
+private void serialize()<p>private void clearForm()<p>@javafx.fxml.FXML()
+private void addAd() throws class java.lang.Exception<p>@javafx.fxml.FXML()
+private void loadDOM()<p>@javafx.fxml.FXML()
+private void deserialize()<p>private void initTableCells()<p>private void initObservables() throws class java.lang.Exception</p><h3>Constructors</h3><p>
+public hr.algebra.controllers.AdminAddAdsController()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>ChatController
+</h1></div><p>package hr.algebra.controllers</p>public ChatController
+extends java.lang.Object
+implements javafx.fxml.Initializable<h3>Fields</h3>
+
+<p>private hr.algebra.model.User hr.algebra.controllers.ChatController.mainUser</p><p>private javafx.scene.control.ListView hr.algebra.controllers.ChatController.userList</p><p>private javafx.scene.control.TextArea hr.algebra.controllers.ChatController.window</p><p>private javafx.scene.control.TextField hr.algebra.controllers.ChatController.input</p><p>private javafx.scene.control.Button hr.algebra.controllers.ChatController.btnRequest</p><p>private hr.algebra.chat.ChatClient hr.algebra.controllers.ChatController.client</p><h3>Methods</h3><p>static class javafx.scene.control.Button access$100(hr.algebra.controllers.ChatController arg0)<p>static class hr.algebra.chat.ChatClient access$000(hr.algebra.controllers.ChatController arg0)<p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)<p>public void setUserFromLogin(hr.algebra.model.User arg0)<p>public void closeThis()<p>private void serverLogin(java.lang.String arg0)<p>private void requestLogin() throws class java.io.IOException<p>@javafx.fxml.FXML()
+private void requestVehicle() throws class java.io.IOException<p>private void initClient()<p>private class javafx.scene.control.TextField getTextField()<p>public void setMessage(java.lang.String arg0)<p>public void newUserList(java.lang.String[] arg0)<p>private void lambda$requestLogin$1(javafx.scene.Parent arg0)<p>private void lambda$setMessage$5(java.lang.String arg0)<p>private void lambda$closeThis$4()<p>private void lambda$newUserList$6(java.lang.String[] arg0)<p>private void lambda$getTextField$3(javafx.event.ActionEvent arg0)<p>private void lambda$requestVehicle$0()<p>private static void lambda$requestLogin$2()</p><h3>Constructors</h3><p>
+public hr.algebra.controllers.ChatController()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>LoginController
+</h1></div><p>package hr.algebra.controllers</p>public LoginController
+extends java.lang.Object
+implements javafx.fxml.Initializable<h3>Fields</h3>
+
+<p>private hr.algebra.repository.ISqlRepo hr.algebra.controllers.LoginController.sqlRepo</p><p>private javafx.scene.layout.AnchorPane hr.algebra.controllers.LoginController.fxLoginAnchor</p><p>private javafx.scene.control.Label hr.algebra.controllers.LoginController.lblErrors</p><p>private javafx.scene.control.TextField hr.algebra.controllers.LoginController.txtUsername</p><p>private javafx.scene.control.TextField hr.algebra.controllers.LoginController.txtPassword</p><p>private javafx.scene.control.Button hr.algebra.controllers.LoginController.btnSignIn</p><p>private javafx.scene.control.Button hr.algebra.controllers.LoginController.btnExit</p><h3>Methods</h3><p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)<p>private void setStage(java.lang.String arg0, hr.algebra.model.User arg1) throws class java.io.IOException<p>private void lambda$setStage$1(javafx.fxml.FXMLLoader arg0, hr.algebra.model.User arg1)<p>private void lambda$validateLogin$0()<p>@javafx.fxml.FXML()
+private void exitLogin()<p>@javafx.fxml.FXML()
+private void validateLogin()<p>private void setLblError(javafx.scene.paint.Color arg0, java.lang.String arg1)</p><h3>Constructors</h3><p>
+public hr.algebra.controllers.LoginController()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>MainDashboardController
+</h1></div><p>package hr.algebra.controllers</p>public MainDashboardController
+extends java.lang.Object
+implements javafx.fxml.Initializable<h3>Fields</h3>
+
+<p>private hr.algebra.model.User hr.algebra.controllers.MainDashboardController.mainUser</p><p>private hr.algebra.threads.ReceiveThread hr.algebra.controllers.MainDashboardController.receiveThread</p><p>private hr.algebra.threads.SendThread hr.algebra.controllers.MainDashboardController.sendThread</p><p>private javafx.scene.control.TableView hr.algebra.controllers.MainDashboardController.tvVehicles</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.MainDashboardController.tcMakerModel</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.MainDashboardController.tcYear</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.MainDashboardController.tcStatus</p><p>private javafx.scene.layout.BorderPane hr.algebra.controllers.MainDashboardController.fxBorderPane</p><p>private javafx.scene.control.Button hr.algebra.controllers.MainDashboardController.btnOverview</p><p>private javafx.scene.control.Button hr.algebra.controllers.MainDashboardController.btnChat</p><p>private javafx.scene.control.Button hr.algebra.controllers.MainDashboardController.btnTakenMenu</p><p>private javafx.scene.control.Button hr.algebra.controllers.MainDashboardController.btnExitApp</p><p>private javafx.scene.control.Label hr.algebra.controllers.MainDashboardController.LbName</p><p>private javafx.collections.ObservableList hr.algebra.controllers.MainDashboardController.vehicles</p><h3>Methods</h3><p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)<p>public void addToList(hr.algebra.model.Vehicle arg0)<p>private void lambda$null$0()<p>public void setUserFromLogin(hr.algebra.model.User arg0)<p>private void lambda$acceptVehicle$2()<p>private static void lambda$loadChat$3(javafx.stage.WindowEvent arg0)<p>private void lambda$setUserFromLogin$1()<p>@javafx.fxml.FXML()
+private void appExit()<p>@javafx.fxml.FXML()
+private void homePanel() throws class java.io.IOException<p>@javafx.fxml.FXML()
+public void acceptVehicle(javafx.scene.input.MouseEvent arg0)<p>private void initTables()<p>private void loadUi(java.lang.String arg0, hr.algebra.model.User arg1) throws class java.io.IOException<p>private void loadUi() throws class java.io.IOException<p>@javafx.fxml.FXML()
+public void loadChat()<p>@javafx.fxml.FXML()
+private void adsTaken() throws class java.io.IOException<p>private void initThread()<p>private void initObservables()<p>@javafx.fxml.FXML()
+private void userAds() throws class java.io.IOException</p><h3>Constructors</h3><p>
+public hr.algebra.controllers.MainDashboardController()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>SendRequestController
+</h1></div><p>package hr.algebra.controllers</p>public SendRequestController
+extends java.lang.Object
+implements javafx.fxml.Initializable<h3>Fields</h3>
+
+<p>private hr.algebra.threads.SendThread hr.algebra.controllers.SendRequestController.serverThread</p><p>private hr.algebra.model.User hr.algebra.controllers.SendRequestController.mainUser</p><p>private javafx.scene.control.TextField hr.algebra.controllers.SendRequestController.tfMaker</p><p>private javafx.scene.control.TextField hr.algebra.controllers.SendRequestController.tfModel</p><p>private javafx.scene.control.TextField hr.algebra.controllers.SendRequestController.tfKm</p><p>private javafx.scene.control.TextField hr.algebra.controllers.SendRequestController.tfProductionYear</p><p>private javafx.scene.control.TextField hr.algebra.controllers.SendRequestController.tfUserRequest</p><p>javafx.scene.control.Button hr.algebra.controllers.SendRequestController.btnSend</p><h3>Methods</h3><p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)<p>public void setUserFromLogin(hr.algebra.model.User arg0)<p>@javafx.fxml.FXML()
+private void handleSendButton()<p>@javafx.fxml.FXML()
+private void Send()<p>private void clearForm()<p>private void initThread()</p><h3>Constructors</h3><p>
+public hr.algebra.controllers.SendRequestController()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>UserAdsController
+</h1></div><p>package hr.algebra.controllers</p>public UserAdsController
+extends java.lang.Object
+implements javafx.fxml.Initializable<h3>Fields</h3>
+
+<p>hr.algebra.repository.ISqlRepo hr.algebra.controllers.UserAdsController.repo</p><p>private hr.algebra.model.User hr.algebra.controllers.UserAdsController.mainUser</p><p>private javafx.scene.control.TableView hr.algebra.controllers.UserAdsController.tvAds</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.UserAdsController.tcTitle</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.UserAdsController.tcPrice</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.UserAdsController.tcDateAndTime</p><h3>Methods</h3><p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)<p>private void lambda$initialize$1()<p>@javafx.fxml.FXML()
+private void createDocumentation()<p>private static interface javafx.beans.value.ObservableValue lambda$initTableCells$2(javafx.scene.control.TableColumn$CellDataFeatures arg0)<p>private void lambda$null$0()<p>public void setUserFromLogin(hr.algebra.model.User arg0)<p>@javafx.fxml.FXML()
+private void reserveAd(javafx.scene.input.MouseEvent arg0) throws class java.lang.Exception<p>@javafx.fxml.FXML()
+private void saveDOM() throws class javax.xml.parsers.ParserConfigurationException<p>@javafx.fxml.FXML()
+private void loadSAX()<p>@javafx.fxml.FXML()
+private void serialize()<p>@javafx.fxml.FXML()
+private void loadDOM()<p>@javafx.fxml.FXML()
+private void deserialize()<p>private void initTableCells()<p>private void initObservables() throws class java.lang.Exception</p><h3>Constructors</h3><p>
+public hr.algebra.controllers.UserAdsController()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>UserTakenAdsController
+</h1></div><p>package hr.algebra.controllers</p>public UserTakenAdsController
+extends java.lang.Object
+implements javafx.fxml.Initializable<h3>Fields</h3>
+
+<p>hr.algebra.repository.ISqlRepo hr.algebra.controllers.UserTakenAdsController.repo</p><p>private hr.algebra.model.User hr.algebra.controllers.UserTakenAdsController.mainUser</p><p>private javafx.scene.control.TableView hr.algebra.controllers.UserTakenAdsController.tvAds</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.UserTakenAdsController.tcTitle</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.UserTakenAdsController.tcPrice</p><p>private javafx.scene.control.TableColumn hr.algebra.controllers.UserTakenAdsController.tcDateAndTime</p><h3>Methods</h3><p>public void initialize(java.net.URL arg0, java.util.ResourceBundle arg1)<p>@javafx.fxml.FXML()
+private void createDocumentation()<p>private void lambda$null$1()<p>public void setUserFromLogin(hr.algebra.model.User arg0) throws class java.lang.Exception<p>@javafx.fxml.FXML()
+private void reserveAd(javafx.scene.input.MouseEvent arg0) throws class java.lang.Exception<p>private void lambda$setUserFromLogin$2()<p>@javafx.fxml.FXML()
+private void saveDOM() throws class javax.xml.parsers.ParserConfigurationException<p>@javafx.fxml.FXML()
+private void loadSAX()<p>@javafx.fxml.FXML()
+private void serialize()<p>@javafx.fxml.FXML()
+private void loadDOM()<p>@javafx.fxml.FXML()
+private void deserialize()<p>private void initTableCells()<p>private void initObservables() throws class java.lang.Exception<p>private static interface javafx.beans.value.ObservableValue lambda$initTableCells$0(javafx.scene.control.TableColumn$CellDataFeatures arg0)</p><h3>Constructors</h3><p>
+public hr.algebra.controllers.UserTakenAdsController()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>DocumentGenerator
+</h1></div><p>package hr.algebra.documentmaker</p>public DocumentGenerator
+extends java.lang.Object<h3>Fields</h3>
+
+<p>private static final java.lang.String hr.algebra.documentmaker.DocumentGenerator.DOCUMENTATION_FILENAME</p><h3>Methods</h3><p>private static void lambda$null$0(java.lang.StringBuilder arg0, java.lang.String arg1, java.nio.file.Path arg2)<p>private static void generatingDoc(java.util.List<java.lang.String> arg0)<p>private static interface java.util.List fillPaths()<p>public static void docMaker()<p>private static void lambda$generatingDoc$1(java.lang.StringBuilder arg0, java.lang.String arg1)</p><h3>Constructors</h3><p>
+public hr.algebra.documentmaker.DocumentGenerator()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>Advertisement
+</h1></div><p>package hr.algebra.model</p>public Advertisement
+extends java.lang.Object
+implements java.io.Serializable<h3>Fields</h3>
+
+<p>private static final long hr.algebra.model.Advertisement.serialVersionUID</p><p>private javafx.beans.property.IntegerProperty hr.algebra.model.Advertisement.idAdvertisement</p><p>private javafx.beans.property.IntegerProperty hr.algebra.model.Advertisement.vehicleID</p><p>private javafx.beans.property.StringProperty hr.algebra.model.Advertisement.title</p><p>private javafx.beans.property.DoubleProperty hr.algebra.model.Advertisement.price</p><p>private javafx.beans.property.ObjectProperty hr.algebra.model.Advertisement.dateAndTime</p><p>private javafx.beans.property.BooleanProperty hr.algebra.model.Advertisement.isTaken</p><p>private javafx.beans.property.IntegerProperty hr.algebra.model.Advertisement.userID</p><h3>Methods</h3><p>private void readObject(java.io.ObjectInputStream arg0) throws class java.io.IOException, class java.lang.ClassNotFoundException<p>private void writeObject(java.io.ObjectOutputStream arg0) throws class java.io.IOException<p>public int getIdAdvertisement()<p>public void setTitle(java.lang.String arg0)<p>public class java.lang.String getTitle()<p>public class java.lang.Boolean getTaken()<p>public double getPrice()<p>public int getUserID()<p>public int getVehicleID()<p>public class java.util.Date getDateAndTime()<p>public void setDateAndTime(java.util.Date arg0)<p>public void setVehicleID(int arg0)<p>public void setUserID(int arg0)<p>public void setPrice(double arg0)<p>public void setTaken(java.lang.Boolean arg0)<p>public void setIdAdvertisement(int arg0)</p><h3>Constructors</h3><p>
+public hr.algebra.model.Advertisement(java.lang.String arg0, int arg1, double arg2, java.util.Date arg3, java.lang.Boolean arg4, int arg5)</p><p>
+public hr.algebra.model.Advertisement(int arg0, int arg1, java.lang.String arg2, double arg3, java.util.Date arg4, java.lang.Boolean arg5, int arg6)</p><p>
+public hr.algebra.model.Advertisement()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>User
+</h1></div><p>package hr.algebra.model</p>public User
+extends java.lang.Object<h3>Fields</h3>
+
+<p>private int hr.algebra.model.User.idUser</p><p>private java.lang.String hr.algebra.model.User.name</p><p>private java.lang.String hr.algebra.model.User.surName</p><p>private int hr.algebra.model.User.role</p><h3>Methods</h3><p>public class java.lang.String toString()<p>public class java.lang.String getName()<p>public void setName(java.lang.String arg0)<p>public int getRole()<p>public void setRole(int arg0)<p>public class java.lang.String toFullName()<p>public int getIdUser()<p>public class java.lang.String getSurName()<p>public void setIdUser(int arg0)<p>public void setSurName(java.lang.String arg0)</p><h3>Constructors</h3><p>
+public hr.algebra.model.User(java.lang.String arg0, java.lang.String arg1, int arg2)</p><p>
+public hr.algebra.model.User(int arg0, java.lang.String arg1, java.lang.String arg2, int arg3)</p><p>
+public hr.algebra.model.User()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>Vehicle
+</h1></div><p>package hr.algebra.model</p>public Vehicle
+extends java.lang.Object
+implements java.io.Serializable<h3>Fields</h3>
+
+<p>private static final long hr.algebra.model.Vehicle.serialVersionUID</p><p>private javafx.beans.property.IntegerProperty hr.algebra.model.Vehicle.IDVehicle</p><p>private javafx.beans.property.IntegerProperty hr.algebra.model.Vehicle.VehicleTypeID</p><p>private javafx.beans.property.StringProperty hr.algebra.model.Vehicle.Maker</p><p>private javafx.beans.property.StringProperty hr.algebra.model.Vehicle.Model</p><p>private javafx.beans.property.StringProperty hr.algebra.model.Vehicle.ProductionYear</p><p>private javafx.beans.property.IntegerProperty hr.algebra.model.Vehicle.InitialKm</p><p>private javafx.beans.property.IntegerProperty hr.algebra.model.Vehicle.Available</p><h3>Methods</h3><p>public class java.lang.String toString()<p>private void readObject(java.io.ObjectInputStream arg0) throws class java.io.IOException, class java.lang.ClassNotFoundException<p>private void writeObject(java.io.ObjectOutputStream arg0) throws class java.io.IOException<p>public void setProductionYear(java.lang.String arg0)<p>public class java.lang.String getProductionYear()<p>public void setIDVehicle(int arg0)<p>public void setVehicleTypeID(int arg0)<p>public void setModel(java.lang.String arg0)<p>public void setInitialKm(int arg0)<p>public class java.lang.String getMaker()<p>public class java.lang.String getModel()<p>public int getInitialKm()<p>public int getAvailable()<p>public int getVehicleTypeID()<p>public void setMaker(java.lang.String arg0)<p>public int getIDVehicle()<p>public class java.lang.String toSendInfo()<p>public void setAvailable(int arg0)<p>public class java.lang.String toFullInfo()</p><h3>Constructors</h3><p>
+public hr.algebra.model.Vehicle(int arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, int arg4, int arg5)</p><p>
+public hr.algebra.model.Vehicle(int arg0, java.lang.String arg1, java.lang.String arg2)</p><p>
+public hr.algebra.model.Vehicle(int arg0, int arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, int arg5, int arg6)</p><p>
+public hr.algebra.model.Vehicle(int arg0, int arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, int arg5)</p><p>
+public hr.algebra.model.Vehicle()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>DataSourceSingleton
+</h1></div><p>package hr.algebra.sql</p>public DataSourceSingleton
+extends java.lang.Object<h3>Fields</h3>
+
+<p>private static final java.lang.String hr.algebra.sql.DataSourceSingleton.SERVER_NAME</p><p>private static final java.lang.String hr.algebra.sql.DataSourceSingleton.DATABASE_NAME</p><p>private static final java.lang.String hr.algebra.sql.DataSourceSingleton.USER</p><p>private static final java.lang.String hr.algebra.sql.DataSourceSingleton.PASSWORD</p><p>private static javax.sql.DataSource hr.algebra.sql.DataSourceSingleton.instance</p><h3>Methods</h3><p>public static interface javax.sql.DataSource getInstance()<p>private static interface javax.sql.DataSource createInstance()</p><h3>Constructors</h3><p>
+private hr.algebra.sql.DataSourceSingleton()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>SqlRepo
+</h1></div><p>package hr.algebra.sql</p>public SqlRepo
+extends java.lang.Object
+implements hr.algebra.repository.ISqlRepo<h3>Fields</h3>
+
+<p>private static final java.lang.String hr.algebra.sql.SqlRepo.VALIDATE_USER</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.ADD_AD</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.GET_ADS</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.DELETE_AD</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.UPDATE_AD</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.UPDATE_NOT_TAKEN_AD</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.DELETE_ALL_ADS</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.GET_AVAILABLE_VEHICLES</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.GET_VEHICLE_INFO</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.ADD_VEHICLE</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.DELETE_VEHICLE</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.UPDATE_VEHICLE_TAKEN</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.UPDATE_VEHICLE_AVAILABLE</p><p>private static final java.lang.String hr.algebra.sql.SqlRepo.DELETE_ALL_VEHICLES</p><h3>Methods</h3><p>public class hr.algebra.model.User validateUser(java.lang.String arg0, java.lang.String arg1) throws class java.lang.Exception<p>public void updateVehicleNotAvailable(int arg0) throws class java.lang.Exception<p>public void deleteAllVehicles() throws class java.lang.Exception<p>public void updateVehicleAvailable(int arg0) throws class java.lang.Exception<p>public class hr.algebra.model.Vehicle getSingleVehicle(int arg0) throws class java.lang.Exception<p>public interface java.util.List getAllAds() throws class java.lang.Exception<p>public synchronized void updateNotTakenAd(int arg0) throws class java.lang.Exception<p>public void addVehicle(hr.algebra.model.Vehicle arg0) throws class java.lang.Exception<p>public void deleteAllAds() throws class java.lang.Exception<p>public void deleteAd(int arg0) throws class java.lang.Exception<p>public void updateAd(int arg0, int arg1) throws class java.lang.Exception<p>public interface java.util.List getVehicles() throws class java.lang.Exception<p>public void deleteVehicle(int arg0) throws class java.lang.Exception<p>public void addAdvertisement(hr.algebra.model.Advertisement arg0) throws class java.lang.Exception<p> int boolToInt(java.lang.Boolean arg0)</p><h3>Constructors</h3><p>
+public hr.algebra.sql.SqlRepo()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>ByteUtils
+</h1></div><p>package hr.algebra.utils</p>public ByteUtils
+extends java.lang.Object<h3>Fields</h3>
+
+<h3>Methods</h3><p>public static final int byteArrayToInt(byte[] arg0)<p>public static final class [B intToByteArray(int arg0)</p><h3>Constructors</h3><p>
+public hr.algebra.utils.ByteUtils()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>DOMUtils
+</h1></div><p>package hr.algebra.utils</p>public DOMUtils
+extends java.lang.Object<h3>Fields</h3>
+
+<p>private static final java.lang.String hr.algebra.utils.DOMUtils.FILENAME_ADS</p><p>private static final java.lang.String hr.algebra.utils.DOMUtils.FILENAME_VEHICLES</p><h3>Methods</h3><p>public static void saveAdvertisements(javafx.collections.ObservableList<hr.algebra.model.Advertisement> arg0) throws class javax.xml.parsers.ParserConfigurationException<p>private static interface org.w3c.dom.Node createElement(org.w3c.dom.Document arg0, java.lang.String arg1, java.lang.String arg2)<p>private static void saveDocument(org.w3c.dom.Document arg0, java.lang.String arg1) throws class javax.xml.transform.TransformerConfigurationException, class javax.xml.transform.TransformerException<p>private static interface org.w3c.dom.Node createAdElement(hr.algebra.model.Advertisement arg0, org.w3c.dom.Document arg1)<p>private static interface org.w3c.dom.Document createDocument(java.lang.String arg0) throws class javax.xml.parsers.ParserConfigurationException<p>private static interface org.w3c.dom.Document createDocument(java.io.File arg0) throws class org.xml.sax.SAXException, class javax.xml.parsers.ParserConfigurationException, class java.io.IOException<p>private static class hr.algebra.model.Advertisement processAdsNode(org.w3c.dom.Element arg0)<p>public static interface javafx.collections.ObservableList loadVehicles()<p>public static interface javafx.collections.ObservableList loadAds()<p>public static void saveVehicles(javafx.collections.ObservableList<hr.algebra.model.Vehicle> arg0) throws class javax.xml.parsers.ParserConfigurationException<p>private static interface org.w3c.dom.Node createVehicleElement(hr.algebra.model.Vehicle arg0, org.w3c.dom.Document arg1)<p>private static class hr.algebra.model.Vehicle processVehiclesNode(org.w3c.dom.Element arg0)<p>private static void lambda$saveVehicles$1(org.w3c.dom.Document arg0, hr.algebra.model.Vehicle arg1)<p>private static void lambda$saveAdvertisements$0(org.w3c.dom.Document arg0, hr.algebra.model.Advertisement arg1)</p><h3>Constructors</h3><p>
+public hr.algebra.utils.DOMUtils()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>FileUtils
+</h1></div><p>package hr.algebra.utils</p>public FileUtils
+extends java.lang.Object<h3>Fields</h3>
+
+<p>private static final java.lang.String hr.algebra.utils.FileUtils.LOAD</p><p>private static final java.lang.String hr.algebra.utils.FileUtils.SAVE</p><h3>Methods</h3><p>public static transient class java.io.File uploadFileDialog(javafx.stage.Window arg0, java.lang.String... arg1)<p>public static transient class java.io.File saveFileDialog(javafx.stage.Window arg0, java.lang.String... arg1) throws class java.io.IOException<p>private static void lambda$uploadFileDialog$0(javafx.stage.FileChooser arg0, java.lang.String arg1)<p>private static void lambda$saveFileDialog$1(javafx.stage.FileChooser arg0, java.lang.String arg1)</p><h3>Constructors</h3><p>
+public hr.algebra.utils.FileUtils()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>MessageUtils
+</h1></div><p>package hr.algebra.utils</p>public MessageUtils
+extends java.lang.Object<h3>Fields</h3>
+
+<h3>Methods</h3><p>public static void showInfoMessage(java.lang.String arg0, java.lang.String arg1, java.lang.String arg2)</p><h3>Constructors</h3><p>
+public hr.algebra.utils.MessageUtils()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>ReflectionUtils
+</h1></div><p>package hr.algebra.utils</p>public ReflectionUtils
+extends java.lang.Object<h3>Fields</h3>
+
+<h3>Methods</h3><p>private static void appendMethods(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)<p>private static void appendModifiers(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)<p>private static void appendFields(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)<p>public static void readClassInfo(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)<p>private static void appendInterfaces(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)<p>private static void appendPackage(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)<p>private static void appendParent(java.lang.Class<?> arg0, java.lang.StringBuilder arg1, boolean arg2)<p>private static void appendParameters(java.lang.reflect.Executable arg0, java.lang.StringBuilder arg1)<p>private static void appendExceptions(java.lang.reflect.Executable arg0, java.lang.StringBuilder arg1)<p>public static void readClassAndMembersInfo(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)<p>private static void appendConstructors(java.lang.Class<?> arg0, java.lang.StringBuilder arg1)<p>private static void appendMethodAnnotations(java.lang.reflect.Executable arg0, java.lang.StringBuilder arg1)</p><h3>Constructors</h3><p>
+public hr.algebra.utils.ReflectionUtils()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>SAXUtils
+</h1></div><p>package hr.algebra.utils</p>public SAXUtils
+extends java.lang.Object<h3>Fields</h3>
+
+<p>private static final java.lang.String hr.algebra.utils.SAXUtils.FILENAME_ADS</p><p>private static final java.lang.String hr.algebra.utils.SAXUtils.FILENAME_VEHICLES</p><h3>Methods</h3><p>public static interface javafx.collections.ObservableList loadVehicles()<p>public static interface javafx.collections.ObservableList loadAds()</p><h3>Constructors</h3><p>
+public hr.algebra.utils.SAXUtils()</p><hr><p>
+
+</p><div class="jumbotron text-center"><h1>SerializationUtils
+</h1></div><p>package hr.algebra.utils</p>public SerializationUtils
+extends java.lang.Object<h3>Fields</h3>
+
+<h3>Methods</h3><p>public static void write(java.lang.Object arg0, java.lang.Object arg1, java.lang.String arg2) throws class java.io.IOException<p>public static void write(java.lang.Object arg0, java.lang.String arg1) throws class java.io.IOException<p>public static class java.lang.Object read(java.lang.String arg0) throws class java.io.IOException, class java.lang.ClassNotFoundException</p><h3>Constructors</h3><p>
+public hr.algebra.utils.SerializationUtils()</p><hr><p>
+
+</p>
+</div>
+</body>
+</html>
