@@ -96,7 +96,7 @@ END
 go
 
 
-alter proc DataFill
+Create proc DataFill
 as
 BEGIN
  
@@ -249,7 +249,7 @@ go
 
 
 
-create proc UpdateIsTakenAd
+Create proc UpdateIsTakenAd
 @ID int,    
 @UserID int
 as
@@ -261,7 +261,7 @@ END
 go
 
 
-create proc UpdateIsNotTakenAd
+Create proc UpdateIsNotTakenAd
 @ID int
 as
 BEGIN
@@ -271,7 +271,7 @@ WHERE IDAdvertisement = @ID
 END
 go
 
-alter proc DeleteAllAds
+Create proc DeleteAllAds
 AS
 BEGIN
 delete  from Advertisement
@@ -279,7 +279,7 @@ DBCC CHECKIDENT ( Advertisement, RESEED, 0)
 END
 go
 
-alter proc DeleteTakenAds
+Create proc DeleteTakenAds
 AS
 BEGIN
 delete  from Advertisement where Advertisement.isTaken = 1
@@ -295,7 +295,7 @@ go
 
 --Vehicle procedure
 
-alter proc GetVehicles
+Create proc GetVehicles
 as
 BEGIN
 SELECT * from Vehicle
@@ -406,7 +406,7 @@ DELETE Vehicle where IDVehicle = @ID
 END
 GO
 
-alter proc DeleteAllVehicles
+Create proc DeleteAllVehicles
 AS
 BEGIN
 DECLARE @Identity INT
@@ -416,7 +416,7 @@ DBCC CHECKIDENT ( Vehicle, RESEED,@Identity)
 END
 GO
 
-alter proc DeleteAllVehicles2
+Create proc DeleteAllVehicles2
 AS
 BEGIN
 delete  from Vehicle 
@@ -424,10 +424,3 @@ DBCC CHECKIDENT ( Vehicle, RESEED,0)
 END
 go
 
-SELECT * from Vehicle
-select * from Advertisement
-
-EXEC DeleteAllVehicles
-
-exec DeleteAll
-exec DataFill
